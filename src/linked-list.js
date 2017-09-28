@@ -46,6 +46,7 @@ class LinkedList {
         }
 
         if (this.links[index]) {
+            this.append(this.links[index].data);
             this.links[index].data = data;
         }
 
